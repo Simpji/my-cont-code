@@ -1023,6 +1023,10 @@ form button:hover {
         margin: 20px 0 0 0;
         background: white;
     }
+    .featured h1{
+      display: none;
+     
+   }
     .featured{
         margin: 4%;
      }
@@ -1119,10 +1123,10 @@ form button:hover {
       } 
 
       .swiper-slide img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
-        padding: 10%;
+        /* padding-top: 11%; */
         border-radius: 50%;
       }
       .swiper-name{
@@ -1148,7 +1152,7 @@ form button:hover {
     .blogs button {
         font-size: 18px; 
         padding: 5% 20%;
-        margin-bottom: 3%;
+        margin: 3% 0;
     }
 
     .blogs p {
@@ -1367,12 +1371,23 @@ form button:hover {
     
     .PROJECTPRO1 {
         position: absolute;
-        top: 55%;
-        left: 2%;
+        top: 20%;
+        left: 3%;
         transform: translate(-50%, -50%);
         color: #fff;
         text-align: center;
         width: 300px;
+        font-size: 15px;
+    }
+
+    .PROJECTPRO1 .spack,
+    .PROJECTPRO1 .spackk {
+        color: #ff6347;
+        font-size: 20px;
+    }
+
+    .PROJECTPRO1 h3{
+      font-size: 20px;
     }
     
     .jet{
